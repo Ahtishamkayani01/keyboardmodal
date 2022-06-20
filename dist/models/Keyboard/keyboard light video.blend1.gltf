@@ -1,0 +1,419 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Empty",
+            "rotation" : [
+                0,
+                0.7071067094802856,
+                -0.7071068286895752,
+                -3.0908616110991716e-08
+            ],
+            "scale" : [
+                0.5275593400001526,
+                0.5275593400001526,
+                0.5275593400001526
+            ],
+            "translation" : [
+                1.0097227096557617,
+                0.08682238310575485,
+                0.23824834823608398
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "keyboard",
+            "rotation" : [
+                0.00048816969501785934,
+                -0.0004984620027244091,
+                0.9999920129776001,
+                0.003939714748412371
+            ],
+            "scale" : [
+                0.1221558079123497,
+                0.12215577065944672,
+                0.12215573340654373
+            ],
+            "translation" : [
+                0.08022359013557434,
+                0.06657083332538605,
+                0.18193884193897247
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "keys",
+            "rotation" : [
+                0.0004850754339713603,
+                0.000319759565172717,
+                0.9999920725822449,
+                0.003940111957490444
+            ],
+            "scale" : [
+                0.12298467755317688,
+                0.1229846328496933,
+                0.12298460304737091
+            ],
+            "translation" : [
+                1.9536603689193726,
+                -0.2894849479198456,
+                0.1945679783821106
+            ]
+        },
+        {
+            "name" : "Area",
+            "rotation" : [
+                0.7189566493034363,
+                0,
+                0,
+                0.6950550079345703
+            ],
+            "scale" : [
+                4.799901962280273,
+                1.4447972774505615,
+                1.3750643730163574
+            ],
+            "translation" : [
+                0.0795525535941124,
+                0.16394348442554474,
+                0.15072013437747955
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                -0.002776777371764183,
+                -0.6059849262237549,
+                0.7954686284065247,
+                -0.0021153385750949383
+            ],
+            "translation" : [
+                0.39964383840560913,
+                -2.255326747894287,
+                -10.441671371459961
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Plane",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                5.5373663902282715,
+                5.5373663902282715,
+                5.5373663902282715
+            ],
+            "translation" : [
+                -0.010412216186523438,
+                -0.4019579589366913,
+                0.9471431374549866
+            ]
+        },
+        {
+            "name" : "Point",
+            "translation" : [
+                0.24748530983924866,
+                0.18891078233718872,
+                -1.9041476249694824
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "video3",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "Key",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.46136364340782166
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Plane.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Plane.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "vecteezy_very-nice-abstract-red-and-blue-liquids-spreading-in-w",
+            "uri" : "vecteezy_very-nice-abstract-red-and-blue-liquids-spreading-in-w.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2615,
+            "max" : [
+                20.298898696899414,
+                6.035209655761719,
+                1.5732191801071167
+            ],
+            "min" : [
+                -20.298898696899414,
+                -6.035209655761719,
+                -0.22754985094070435
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2615,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2615,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5358,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 7744,
+            "max" : [
+                34.82686233520508,
+                2.5218725204467773,
+                0.22754992544651031
+            ],
+            "min" : [
+                -4.671661376953125,
+                -8.229408264160156,
+                -0.8874053359031677
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 7744,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 7744,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 19056,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1,
+                0,
+                1
+            ],
+            "min" : [
+                -1,
+                0,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 31380,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31380,
+            "byteOffset" : 31380
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20920,
+            "byteOffset" : 62760
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10716,
+            "byteOffset" : 83680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 92928,
+            "byteOffset" : 94396
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 92928,
+            "byteOffset" : 187324
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61952,
+            "byteOffset" : 280252
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38112,
+            "byteOffset" : 342204
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 380316
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 380364
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 380412
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 380444
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 380456,
+            "uri" : "keyboard light video.blend1.bin"
+        }
+    ]
+}
